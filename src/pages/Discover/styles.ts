@@ -1,31 +1,16 @@
-import { getStatusBarHeight } from 'react-native-status-bar-height';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
 
-import styled from 'styled-components/native';
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  map: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
+});
 
-export const Container = styled.View.attrs({
-  paddingTop: getStatusBarHeight(),
-})`
-  flex: 1;
-  background: #fff;
-`;
-
-export const Header = styled.View`
-  margin: 10px;
-  margin-right: 15px;
-  flex-direction: row;
-  align-items: center;
-`;
-
-export const Search = styled.View`
-  flex: 1;
-  border-radius: 5px;
-  align-items: center;
-  padding: 10px 15px;
-  margin-right: 15px;
-  background: #ececec;
-  flex-direction: row;
-`;
-export const Input = styled.TextInput`
-  flex: 1;
-  font-size: 16px;
-`;
+export default styles;

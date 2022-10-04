@@ -26,50 +26,17 @@ import {
 const Me: React.FC = () => {
   return (
     <Container>
-      <Header>
-        <AntDesign
-          style={{ position: 'absolute', left: 10, top: 10 }}
-          name="adduser"
-          size={24}
-          color="black"
-        />
-        <Title>Matheus Castro</Title>
-        <MaterialIcons name="arrow-drop-down" size={24} color="black" />
-        <FontAwesome
-          style={{ position: 'absolute', right: 13, top: 12 }}
-          name="ellipsis-v"
-          size={24}
-          color="black"
-        />
-      </Header>
       <ScrollView>
         <Content>
-          <Avatar source={avatar} />
-          <Username>@matheuscastroweb</Username>
-          <Stats>
-            <StatsColumn>
-              <StatsNumber>1950</StatsNumber>
-              <StatsText>Following</StatsText>
-            </StatsColumn>
-            <Separator>|</Separator>
-            <StatsColumn>
-              <StatsNumber>650</StatsNumber>
-              <StatsText>Followers</StatsText>
-            </StatsColumn>
-            <Separator>|</Separator>
-            <StatsColumn>
-              <StatsNumber>950</StatsNumber>
-              <StatsText>Likes</StatsText>
-            </StatsColumn>
-          </Stats>
-          <ProfileColumn>
-            <ProfileEdit>
-              <ProfileText>Edit profile</ProfileText>
-            </ProfileEdit>
-            <Bookmark name="bookmark" size={24} color="black" />
-          </ProfileColumn>
+        <Username> </Username>
+        <Username> </Username>
+        <Username> </Username>
+        <Username> </Username>
+        <Username> </Username>
 
-          <StatsText>Tap to add bio</StatsText>
+          <Username>@descantemedicamentos</Username>
+          <Username>contato@descantemedicamentos.org</Username>
+          <Username>(11) 0800 123 12 12</Username>
         </Content>
       </ScrollView>
     </Container>

@@ -82,10 +82,10 @@ const Feed: React.FC<Props> = ({ play, item }) => {
       <Details>
         <User>{item.username}</User>
         <Tags>{item.tags}</Tags>
-        <MusicBox>
+        {/* <MusicBox>
           <FontAwesome name="music" size={15} color="#f5f5f5" />
           <Music>{item.music}</Music>
-        </MusicBox>
+        </MusicBox> */}
       </Details>
       <Actions>
         <BoxAction>
@@ -113,9 +113,9 @@ const Feed: React.FC<Props> = ({ play, item }) => {
             size={35}
             color="#06d755"
           />
-          <TextAction>Share</TextAction>
+          <TextAction>Enviar</TextAction>
         </BoxAction>
-        <BoxAction>
+        {/* <BoxAction>
           <Animated.View
             style={{
               borderRadius: 50,
@@ -145,7 +145,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
             progress={play ? spinValue : 0}
             style={{ width: 150, position: 'absolute', bottom: 0, right: 0 }}
           />
-        </BoxAction>
+        </BoxAction> */}
       </Actions>
       <LinearGradient
         colors={['transparent', 'rgba(0,0,0,.4)']}

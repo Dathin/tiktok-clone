@@ -53,9 +53,9 @@ const AppRoutes: React.FC = () => {
           blur: () => setHome(false),
         }}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'Videos',
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="home" size={24} color={color} />
+            <FontAwesome name="video-camera" size={24} color={color} />
           ),
         }}
       />
@@ -63,13 +63,13 @@ const AppRoutes: React.FC = () => {
         name="Discover"
         component={Discover}
         options={{
-          tabBarLabel: 'Discover',
+          tabBarLabel: 'Pontos',
           tabBarIcon: ({ color }) => (
-            <AntDesign name="search1" size={24} color={color} />
+            <FontAwesome name="map-marker" size={24} color={color} />
           ),
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Live"
         component={Record}
         listeners={({ navigation }) => ({
@@ -85,15 +85,15 @@ const AppRoutes: React.FC = () => {
           tabBarLabel: '',
           tabBarIcon: () => <HomeButtom home={home} />,
         }}
-      />
+      /> */}
       <Tab.Screen
         name="Inbox"
         component={Inbox}
         options={{
-          tabBarLabel: 'Inbox',
+          tabBarLabel: 'Sobre',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons
-              name="message-text-outline"
+            <FontAwesome
+              name="newspaper-o"
               size={24}
               color={color}
             />
@@ -104,9 +104,9 @@ const AppRoutes: React.FC = () => {
         name="Me"
         component={Me}
         options={{
-          tabBarLabel: 'Me',
+          tabBarLabel: 'Contato',
           tabBarIcon: ({ color }) => (
-            <AntDesign name="user" size={24} color={color} />
+            <FontAwesome name="phone" size={24} color={color} />
           ),
         }}
       />

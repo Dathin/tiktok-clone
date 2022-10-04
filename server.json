@@ -2,21 +2,45 @@
   "feed": [
     {
       "id": 0,
-      "username": "@matheuscastroweb",
-      "tags": "#testvideo #reactnative #tiktok #git #development #github #clone #react",
-      "music": "Introducing Chromecast. The easiest way to enjoy",
+      "username": "@novartisBrasil",
       "likes": 9444,
       "comments": 6340,
-      "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/1.mp4"
     },
     {
       "id": 1,
-      "username": "@matheuscastroweb",
-      "tags": "#reactnative #testvideo #tiktok #git #development #github #clone #react",
-      "music": "HBO GO now works with Chromecast",
+      "username": "@oncocamp",
       "likes": 8411,
       "comments": 2240,
-      "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/2.mp4"
+    },
+    {
+      "id": 2,
+      "username": "@novartisBrasil",
+      "likes": 9444,
+      "comments": 6340,
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/1.mp4"
+    },
+    {
+      "id": 3,
+      "username": "@oncocamp",
+      "likes": 8411,
+      "comments": 2240,
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/2.mp4"
+    },
+    {
+      "id": 4,
+      "username": "@novartisBrasil",
+      "likes": 9444,
+      "comments": 6340,
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/1.mp4"
+    },
+    {
+      "id": 5,
+      "username": "@oncocamp",
+      "likes": 8411,
+      "comments": 2240,
+      "uri": "http://fiap-react-native-bayer.s3-website-us-east-1.amazonaws.com/2.mp4"
     }
   ]
 }
