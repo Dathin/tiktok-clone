@@ -1,4 +1,0 @@
-- main
-- pontos de coleta  
-- saiba mais
-- contato
